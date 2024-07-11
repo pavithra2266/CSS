@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Board</title>
+    <style>
+        body{
+            background-color: rgb(75, 73, 73);
+         
+        } 
+        #board{
+            height: 400px;
+            width: 400px;
+            background-color: rgb(15, 15, 15);
+            margin: 35px auto;
+        }
+        .row{
+            width: 100%;
+            height: 50px;
+            float: left;
+        }
+        .box{
+            width: 50px;
+            height: 50px;
+            float: left;
+            text-align: center;
+            font-size: 30px;
+        }
+        .box:hover{
+            background-color: red;
+        }
+        .white{
+            background-color: white;
+        }
+        
+        .player1{
+            color: blue;
+        }
+        .opposite{
+            color: rgb(23, 139, 23);
+            }
+       
+        
+    </style>
+    
+</head>
+<body>
+    <div id="board">
+     <div class="row player1">
+       <div class="box white">&#9820</div>
+       <div class="box ">&#9822</div>
+       <div class="box white">&#9821</div>
+       <div class="box">&#9818</div>
+       <div class="box white">&#9819</div>
+       <div class="box">&#9821</div>
+       <div class="box white">&#9822</div>
+       <div class="box">&#9820</div>
+     </div>
+     <div class="row player1">
+        <div class="box ">&#9823</div>
+        <div class="box white">&#9823</div>
+        <div class="box ">&#9823</div>
+        <div class="box white">&#9823</div>
+        <div class="box ">&#9823</div>
+        <div class="box white">&#9823</div>
+        <div class="box ">&#9823</div>
+        <div class="box white">&#9823</div>
+      </div>
+      <div class="row">
+        <div class="box white"></div>
+        <div class="box "></div>
+        <div class="box white"></div>
+        <div class="box"></div>
+        <div class="box white"></div>
+        <div class="box"></div>
+        <div class="box white"></div>
+        <div class="box"></div>
+      </div>
+      <div class="row">
+         <div class="box "></div>
+         <div class="box white"></div>
+         <div class="box "></div>
+         <div class="box white"></div>
+         <div class="box "></div>
+         <div class="box white"></div>
+         <div class="box "></div>
+         <div class="box white"></div>
+       </div>
+       <div class="row">
+        <div class="box white"></div>
+        <div class="box "></div>
+        <div class="box white"></div>
+        <div class="box"></div>
+        <div class="box white"></div>
+        <div class="box"></div>
+        <div class="box white"></div>
+        <div class="box"></div>
+      </div>
+      <div class="row">
+         <div class="box "></div>
+         <div class="box white"></div>
+         <div class="box "></div>
+         <div class="box white"></div>
+         <div class="box "></div>
+         <div class="box white"></div>
+         <div class="box "></div>
+         <div class="box white"></div>
+       </div>
+       <div class="row opposite">
+        <div class="box white">&#9823</div>
+        <div class="box ">&#9823</div>
+        <div class="box white">&#9823</div>
+        <div class="box">&#9823</div>
+        <div class="box white">&#9823</div>
+        <div class="box">&#9823</div>
+        <div class="box white">&#9823</div>
+        <div class="box">&#9823</div>
+      </div>
+      <div class="row opposite">
+        <div class="box ">&#9820</div>
+       <div class="box white">&#9822</div>
+       <div class="box ">&#9821</div>
+       <div class="box white">&#9819</div>
+       <div class="box ">&#9818</div>
+       <div class="box white">&#9821</div>
+       <div class="box ">&#9822</div>
+       <div class="box white">&#9820</div>
+       </div>
+       
+    </div>
+</body>
+</html>
